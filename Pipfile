@@ -9,7 +9,7 @@ protobuf = "*"
 pycryptodome = "*"
 requests = "*"
 tqdm = "*"
-urllib3 = "<1.26.0"  # Newer versions seem to cause BadAuthentication errors.
+urllib3 = "<2.9.0"  # Newer versions seem to cause BadAuthentication errors.
 
 [dev-packages]
 pytest-cov = "*"
